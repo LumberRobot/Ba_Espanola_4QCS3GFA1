@@ -1,0 +1,115 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: white;
+    color: #7f8346;
+}
+
+body {
+    margin: 45px;
+}
+
+header {
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.reasons {
+    margin-bottom: 60px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    border: solid 3px #7f8346;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 40px;
+    width: 500px;
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+#num {
+    padding-bottom: 20px;
+}
+
+input[type='text'] {
+    border: 0;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    color: #7f8346;
+    font-size: 20px;
+}
+
+input[type='text']::placeholder {
+    color: #7f8346;
+
+}
+
+input[type='text']:hover {
+    cursor: pointer;
+}
+
+input[type='text']:focus{
+	outline: none;
+}
+
+input[type='radio']{
+    cursor: pointer;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #7f8346;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='submit'] {
+    margin-right: 300px;
+}
+
+input[type='submit'], input[type='reset'] {
+    outline: none;
+    color: #7f8346;
+    cursor: pointer;
+    border: solid 2px #7f8346;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+input[type='submit']:hover , input[type='reset']:hover {
+    background-color: #7f8346;
+    color: white;
+    transition: background-color 100ms linear;  
+}
